@@ -22,5 +22,5 @@ btn.addEventListener('click', function () {
         console.log(price);
     }
 
-    document.getElementById('message').innerHTML = price.toFixed(2);
+    document.getElementById('message').innerHTML = price.toFixed(2) + ' ' + '&euro;';
 })

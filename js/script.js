@@ -38,5 +38,14 @@ btn.addEventListener('click', function () {
     document.getElementById('vagon').innerHTML = Math.floor(Math.random() * 10) + 1;
     document.getElementById('cp').innerHTML = Math.floor(Math.random() * 100000) + 1;
 
+    document.getElementById('show').classList.remove('d-none')
 
+
+})
+
+let btn_res = document.getElementById('btn_res');
+btn_res.addEventListener('click', function () {
+
+
+    document.getElementById('show').classList.add('d-none')
 })

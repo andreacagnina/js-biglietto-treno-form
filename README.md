@@ -17,6 +17,8 @@ MILESTONE 1:
 2- Implementare nell'html 1 input per fare selezionare la fascia di età del passeggero
 3- Implementare nell'html 1 btn
 4- Creare una variabile per il bottone alla quale aggiungere un event listener sul click
-5- Dichiarare il costo a km
-6- Calcolare il prezzo scontato del biglietto
-7- Calcolare il prezzo finale del biglietto
+5- recupero tutti i dati dal form
+6- Dichiarare il costo a km
+7- Calcolare il prezzo scontato del biglietto SE il passeggero ha meno di 18 anni
+8- Calcolare il prezzo scontato del biglietto SE il passeggero ha più di 65 anni
+9- Altrimenti il costo resta invariato

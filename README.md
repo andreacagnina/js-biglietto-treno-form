@@ -14,5 +14,9 @@ Nota: Se non vi sentite particolarmente creativi, questa potrebbe essere un’im
 
 MILESTONE 1:
 1- Implementare nell'html 1 input per fare inserire il numero di km che il passeggero deve percorrere
-2- Implementare nell'html 1 input per fare inserire l'età del passeggero
+2- Implementare nell'html 1 input per fare selezionare la fascia di età del passeggero
 3- Implementare nell'html 1 btn
+4- Creare una variabile per il bottone alla quale aggiungere un event listener sul click
+5- Dichiarare il costo a km
+6- Calcolare il prezzo scontato del biglietto
+7- Calcolare il prezzo finale del biglietto

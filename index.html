@@ -16,22 +16,22 @@
 <body>
     <main class="bg-primary">
         <div class="container">
-            <form action="">
+            <form action="#">
                 <div class="row">
                     <div class="col-12">
                         <div class="content text-center my-5">
-                            <h1 class="text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+                            <h2 class="text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
                         </div>
                     </div>
                     <div class="col-4 offset-2">
                         <div class="content bg-white rounded-2 text-center">
-                            <label class="form-label" for="">Km da percorrere:</label>
+                            <label class="form-label text-danger fw-bold" for="km">Km da percorrere:</label>
                             <input class="form-control" type="number" name="km" id="km" min="1" max="1000">
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="content bg-white rounded-2 text-center">
-                            <label class="form-label" for="">Fascia di età:</label>
+                            <label class="form-label text-danger fw-bold" for="age">Fascia di età:</label>
                             <select class="form-control" name="menu" id="age">
                                 <option value="0">---</option>
                                 <option value="1">Da 0 a 17</option>
@@ -42,20 +42,59 @@
                     </div>
                     <div class="col-12">
                         <div class="content rounded-2 text-center my-5">
-                            <button class="btn btn-outline-light" type="button" id="btn">🔍 Avvia la ricerca</button>
-                            <button class="btn btn-danger" type="reset">Reset</button>
+                            <button class="btn btn-outline-light" type="button" id="btn">🔍 Genera</button>
+                            <button class="btn btn-danger ms-4 me-5" type="reset">Reset</button>
                         </div>
                     </div>
                 </div>
             </form>
         </div>
-        <div class="col-1">
-            <div class="content bg-white text-center">
-                <h1 id="message"> </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content text-center text-white my-2">
+                        <h2>IL TUO BIGLIETTO</h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="content bg-white">
+                        <h3>DETTAGLIO PASSEGGERI</h3>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="content border bg-secondary">
+                                    <h4>NOME PASSEGGERO</h4>
+                                    <h5 id="name"></h5>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="content">
+                                    <table class="table table-borderless">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Offerta</th>
+                                                <th scope="col">Carrozza</th>
+                                                <th scope="col">Codice CP</th>
+                                                <th scope="col">Costo biglietto</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Offerta Standard</td>
+                                                <td id="vagon"></td>
+                                                <td id="cp"></td>
+                                                <td id="message"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-        </div>
+
+
     </main>
 
 

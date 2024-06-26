@@ -23,4 +23,7 @@ btn.addEventListener('click', function () {
     }
 
     document.getElementById('message').innerHTML = price.toFixed(2) + ' ' + '&euro;';
+    document.getElementById('vagon').innerHTML = Math.floor(Math.random() * 10) + 1;
+    document.getElementById('cp').innerHTML = Math.floor(Math.random() * 100000) + 1;
+
 })

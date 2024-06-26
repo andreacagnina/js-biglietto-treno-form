@@ -16,9 +16,13 @@ MILESTONE 1:
 1- Implementare nell'html 1 input per fare inserire il numero di km che il passeggero deve percorrere
 2- Implementare nell'html 1 input per fare selezionare la fascia di età del passeggero
 3- Implementare nell'html 1 btn
-4- Creare una variabile per il bottone alla quale aggiungere un event listener sul click
-5- recupero tutti i dati dal form
+<!-- 4- Creare una variabile per il bottone alla quale aggiungere un event listener sul click -->
+4- Aggiungere in JS un evento ascoltatore al click
+5- recupero i km che il passeggero deve percorrere dal form 
+5- recupero la fascia d'età del passeggero dal form 
 6- Dichiarare il costo a km
 7- Calcolare il prezzo scontato del biglietto SE il passeggero ha meno di 18 anni
 8- Calcolare il prezzo scontato del biglietto SE il passeggero ha più di 65 anni
 9- Altrimenti il costo resta invariato
+10- Stampo su HTML il risultato ottenuto.
+11- Stilizzo
